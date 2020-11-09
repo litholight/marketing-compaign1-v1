@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgrey;
+  /* padding: 20px; */
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  /* margin: 20px; */
+  /* padding: 20px; */
+  background-color: white;
+  width: 1642px;
+  height: 1264px;
+}
+.zero {
+  flex-grow: 1;
+  background-color: white;
+  color: #fff;
+  margin-bottom: 1rem;
+  padding: 2px 10rem;
+  border-bottom: 1px solid #ddcbff;
+  box-shadow: 0 4px 8px -2px gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.one {
+  flex-grow: 1;
+  background-color: #33A5F2;
+  color: #fff;
+  margin: 1rem 2.5rem;
+  border: 1px solid #ddcbff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Hero_imageContainer {
+}
+img {
+  width: 450px;
+}
+
+.Hero_headers {
+  display: block;
+  width: 100%;
+  border-radius: 0.25rem;
+  background-color: #33A5F2;
+  text-align: center;
+}
+
+.Hero_header {
+  width: 100%;
+  font-size: 3rem;
+  padding: 1rem;
+  font-weight: bolder;
+  color: white;
+  margin: 0.5rem;
+}
+.Hero_header.id {
+  font-size: 2.5rem;
+  padding: 0;
+  color: black;
+}
+.two {
+  flex-grow: 1;
+  background-color: #33A5F2;
+  color: #fff;
+  margin: 1rem 2.5rem;
+  /* border: 1px solid #ddcbff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.three {
+  flex-grow: 1;
+  background-color: #33A5F2;
+  /* color: #fff; */
+  margin: 1rem 2.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ddcbff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.cardsContainer {
+  background-color: white;
+  display: grid;
+  grid-gap: 1.5rem;
+  margin: auto auto;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.gridItem {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* border: 1px solid lightgrey; */
+  height: 100%;
+  width: 100%;
+}
+
+.goodItem {
+  margin: 1rem;
+  text-align: left;
+  color: black;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.icons {
+  margin: 1rem;
+  max-height: 100px;
+  width: auto;
+  filter: invert(76%) sepia(45%) saturate(6339%) hue-rotate(2deg)
+    brightness(104%) contrast(105%);
+}
